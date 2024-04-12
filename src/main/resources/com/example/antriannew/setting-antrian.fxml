@@ -1,14 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="$CONTROLLER_NAME$"
-            prefHeight="400.0" prefWidth="600.0" >
-
-</AnchorPane>
+<ScrollPane fitToWidth="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.antriannew.controller.settingAntrianController">
+   <content>
+      <VBox prefHeight="400.0" prefWidth="470.0">
+         <children>
+            <Label prefHeight="36.0" prefWidth="258.0" text="SETTING ANTRIAN" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial" size="25.0" />
+               </font>
+            </Label>
+            <TableView fx:id="tableView" editable="true" minWidth="-Infinity" prefHeight="317.0" />
+            <HBox prefHeight="53.0" prefWidth="470.0">
+               <children>
+                  <Button fx:id="btnTambah" mnemonicParsing="false" onAction="#tambahPane" prefHeight="31.0" prefWidth="63.0" text="Tambah" />
+                  <Button fx:id="btnEdit" mnemonicParsing="false" onAction="#editPane" prefHeight="31.0" prefWidth="63.0" text="Edit" />
+                  <Button fx:id="btnHapus" mnemonicParsing="false" onAction="#hapusData" prefHeight="31.0" prefWidth="63.0" text="Hapus" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </content>
+</ScrollPane>

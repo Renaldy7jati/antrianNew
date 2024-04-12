@@ -1,4 +1,4 @@
-package com.example.antriannew;
+package com.example.antriannew.models;
 
 import javafx.beans.property.SimpleStringProperty;
 
@@ -19,6 +19,13 @@ public class settingUser {
     }
 
     private SimpleStringProperty id_role;
+
+//    public settingUser(String user_name,String nama, String password) {
+//        this.user_name =new SimpleStringProperty(user_name);
+//        this.password = new SimpleStringProperty(password);
+//        this.nama = new SimpleStringProperty(nama);
+//    }
+
     private LocalDateTime waktu_update;
 
     public settingUser(String id_user, String user_name, String password, String nama, String id_role, LocalDateTime waktu_update) {

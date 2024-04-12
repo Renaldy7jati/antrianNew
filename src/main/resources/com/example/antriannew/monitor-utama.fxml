@@ -1,14 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="$CONTROLLER_NAME$"
-            prefHeight="400.0" prefWidth="600.0" >
-
-</AnchorPane>
+<GridPane alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="467.0" prefWidth="652.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.antriannew.controller.monitorUtamaController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="267.0" minWidth="10.0" prefWidth="191.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="299.0" minWidth="10.0" prefWidth="241.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="211.0" minWidth="10.0" prefWidth="189.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints />
+    <RowConstraints maxHeight="118.0" minHeight="10.0" prefHeight="118.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="254.0" minHeight="10.0" prefHeight="149.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Pane prefHeight="237.0" prefWidth="453.0" GridPane.columnSpan="2" GridPane.rowIndex="1" GridPane.rowSpan="2">
+         <children>
+            <Label fx:id="noAntrianAktif" layoutX="170.0" layoutY="80.0" text="007">
+               <font>
+                  <Font size="74.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Label text="LOKET 1">
+               <font>
+                  <Font size="37.0" />
+               </font>
+            </Label>
+            <Label fx:id="noAntrianLkt1" text="001">
+               <font>
+                  <Font size="37.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1">
+         <children>
+            <Label text="LOKET 2">
+               <font>
+                  <Font size="37.0" />
+               </font>
+            </Label>
+            <Label fx:id="noAntrianLkt2" text="001">
+               <font>
+                  <Font size="37.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="2">
+         <children>
+            <Label text="LOKET 3">
+               <font>
+                  <Font size="37.0" />
+               </font>
+            </Label>
+            <Label fx:id="noAntrianLkt3" text="001">
+               <font>
+                  <Font size="37.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+         <children>
+            <Label text="LOKET 4">
+               <font>
+                  <Font size="37.0" />
+               </font>
+            </Label>
+            <Label fx:id="noAntrianLkt4" text="001">
+               <font>
+                  <Font size="37.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+         <children>
+            <Label text="LOKET 5">
+               <font>
+                  <Font size="37.0" />
+               </font>
+            </Label>
+            <Label fx:id="noAntrianLkt5" text="001">
+               <font>
+                  <Font size="37.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</GridPane>

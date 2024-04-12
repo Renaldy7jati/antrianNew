@@ -1,29 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="153.0" prefWidth="241.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.antriannew.tambahDataControler">
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="175.0" prefWidth="241.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.antriannew.controller.tambahDataUser">
    <children>
-      <HBox alignment="CENTER" prefHeight="55.0" prefWidth="241.0">
+      <HBox alignment="CENTER" prefHeight="36.0" prefWidth="241.0">
          <children>
-            <Label minWidth="-Infinity" prefHeight="17.0" prefWidth="85.0" text="Kode Antrian" />
-            <TextField fx:id="kodeAntrian" />
+            <Label minWidth="-Infinity" prefHeight="17.0" prefWidth="85.0" text="NAMA" />
+            <TextField fx:id="nama" />
          </children>
       </HBox>
-      <HBox alignment="CENTER" prefHeight="65.0" prefWidth="241.0">
+      <HBox alignment="CENTER" prefHeight="36.0" prefWidth="241.0">
          <children>
-            <Label maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="85.0" text="Uraian Antrian" />
-            <TextField fx:id="uraianAntrian" />
+            <Label maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="85.0" text="USER_NAME" />
+            <TextField fx:id="username" />
          </children>
       </HBox>
-      <HBox alignment="CENTER" prefHeight="39.0" prefWidth="241.0">
+      <HBox alignment="CENTER" prefHeight="36.0" prefWidth="241.0">
          <children>
-            <Button fx:id="btnTambah" mnemonicParsing="false" onAction="#tambahData" text="Tambah" />
+            <Label maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="85.0" text="PASSWORD" />
+            <TextField fx:id="password" />
          </children>
       </HBox>
+      <HBox alignment="CENTER" prefHeight="36.0" prefWidth="241.0">
+         <children>
+            <Label maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="85.0" text="ROLE" />
+            <ComboBox fx:id="role" prefWidth="150.0" />
+         </children>
+      </HBox>
+      <Button fx:id="btnTambah" mnemonicParsing="false" onAction="#tambahData" text="Tambah" />
    </children>
 </VBox>

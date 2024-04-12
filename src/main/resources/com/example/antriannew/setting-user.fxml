@@ -8,11 +8,11 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<ScrollPane fitToWidth="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.antriannew.controller.settingAntrianController">
+<ScrollPane fitToWidth="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.antriannew.controller.settingUserController">
    <content>
       <VBox prefHeight="400.0" prefWidth="470.0">
          <children>
-            <Label prefHeight="36.0" prefWidth="258.0" text="SETTING ANTRIAN" textAlignment="CENTER">
+            <Label prefHeight="36.0" prefWidth="258.0" text="SETTING USER" textAlignment="CENTER">
                <font>
                   <Font name="Arial" size="25.0" />
                </font>
@@ -21,8 +21,8 @@
             <HBox prefHeight="53.0" prefWidth="470.0">
                <children>
                   <Button fx:id="btnTambah" mnemonicParsing="false" onAction="#tambahPane" prefHeight="31.0" prefWidth="63.0" text="Tambah" />
-                  <Button fx:id="btnEdit" mnemonicParsing="false" onAction="#editPane" prefHeight="31.0" prefWidth="63.0" text="Edit" />
-                  <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="63.0" text="Hapus" />
+                  <Button fx:id="btnEdit" mnemonicParsing="false" onAction="#editPane" prefHeight="31.0" prefWidth="84.0" text="Reset Pass" />
+                  <Button fx:id="btnHapus" mnemonicParsing="false" onAction="#hapusData" prefHeight="31.0" prefWidth="63.0" text="Hapus" />
                </children>
             </HBox>
          </children>

@@ -1,6 +1,7 @@
-package com.example.antriannew.models;
+package com.example.antriannew.controller;
 
 import com.example.antriannew.controller.connection;
+import com.example.antriannew.models.settingUser;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
@@ -21,7 +22,7 @@ public class resetPasswordController implements Initializable {
     PasswordField repassword;
     @FXML
     Button btnReset;
-    private  settingUser settingUser;
+    private com.example.antriannew.models.settingUser settingUser;
 
     com.example.antriannew.controller.connection connection = new connection();
 
@@ -35,11 +36,14 @@ public class resetPasswordController implements Initializable {
         username.setText(settingUser.getUser_name());
     }
 
-    public void reset(){
-        if(password.getText() == repassword.getText()){
+
+    public void resetPass(){
+        String passwordText = password.getText();
+        String repasswordText = repassword.getText();
+        if(passwordText.equals(repasswordText)){
             String updateSQL = "UPDATE `td_user` SET `PASSWORD` = ? WHERE `td_user`.`user_name` = ?";
             try {
-                PreparedStatement preparedStatement = connection.connection().prepareStatement(updateSQL);
+                PreparedStatement preparedStatement = connection.connection.prepareStatement(updateSQL);
                 preparedStatement.setString(1,password.getText());
                 preparedStatement.setString(2,username.getText());
                 int resetPassword = preparedStatement.executeUpdate();
@@ -66,6 +70,8 @@ public class resetPasswordController implements Initializable {
                 throw new RuntimeException(e);
             }
         }else{
+            System.out.println(password.getText());
+            System.out.println(repassword.getText());
             Alert alertError = new Alert(Alert.AlertType.ERROR);
             alertError.setTitle("Gagal !");
             alertError.setContentText("Password tidak sama !");

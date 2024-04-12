@@ -5,17 +5,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ffe7a94-f597-4edd-8c8a-afecad2602d5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/AdministratorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/settingUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/antriannew/ambil-antrian.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/antriannew/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/antriannew/mainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/antriannew/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/ambilAntrianController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/connection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/connection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/homeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/loginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/loginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/resetPasswordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/resetPasswordController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/tambahDataUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/tambahDataUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/antriannew/editDataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/editDataController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/antriannew/models/settingAntrian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/antriannew/models/settingAntrian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/antriannew/models/settingUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/antriannew/models/settingUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/antriannew/monitorUtamaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/monitorUtamaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/antriannew/panggilAntrianController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/panggilAntrianController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/antriannew/settingAntrianController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/settingAntrianController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/antriannew/settingUserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/antriannew/tambahDataControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/tambahDataControler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/antriannew/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/antriannew/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/antriannew/edit-antrian.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/antriannew/edit-antrian.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/antriannew/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/antriannew/home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/antriannew/home.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/antriannew/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/antriannew/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/antriannew/monitor-utama.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/antriannew/monitor-utama.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/antriannew/panggil-antrian.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/antriannew/panggil-antrian.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/antriannew/reset-password.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/antriannew/reset-password.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/antriannew/setting-antrian.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/antriannew/setting-antrian.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/antriannew/setting-user.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/antriannew/setting-user.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/antriannew/tambah-antrian.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/antriannew/tambah-antrian.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/antriannew/tambah-user.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/antriannew/tambah-user.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2eBP4phMw8SIBRchLwzUhUaQbDg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -23,12 +63,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/BERTUMBUH/JAVA/antrianNew/src/main/resources/com/example/antriannew&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.3873563&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\BERTUMBUH\JAVA\antrianNew\src\main\resources\com\example\antriannew" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.antriannew" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Antrian" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.example.antriannew.mainApp" />
+      <module name="antrianNew" />
+      <option name="PROGRAM_PARAMETERS" value="--module-path &quot;\path\to\javafx-sdk-22\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -50,5 +114,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

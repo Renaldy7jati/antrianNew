@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="$CONTROLLER_NAME$"
-            prefHeight="400.0" prefWidth="600.0" >
-
-</AnchorPane>
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.antriannew.controller.AdministratorController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+         <children>
+            <Button fx:id="settingUser" mnemonicParsing="false" onAction="#btnSettingUser" prefHeight="25.0" prefWidth="101.0" text="SETTING USER" />
+            <Button fx:id="settingAntrian" mnemonicParsing="false" onAction="#btnSettingAntrian" prefHeight="44.0" prefWidth="100.0" text="SETTING ANTRIAN" textAlignment="CENTER" wrapText="true" />
+            <Button fx:id="settingKoneksi" mnemonicParsing="false" prefHeight="44.0" prefWidth="100.0" text="SETTING KONEKSI" textAlignment="CENTER" wrapText="true" />
+            <Button fx:id="logOut" mnemonicParsing="false" prefHeight="44.0" onAction="#btnLogOut" prefWidth="100.0" text="LOG OUT" textAlignment="CENTER" wrapText="true" />
+         </children>
+      </VBox>
+      <BorderPane fx:id="borderPane" prefHeight="400.0" prefWidth="506.0" />
+   </children>
+</HBox>

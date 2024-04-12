@@ -1,4 +1,4 @@
-package com.example.antriannew;
+package com.example.antriannew.models;
 
 import javafx.beans.property.SimpleStringProperty;
 

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="vBox" alignment="CENTER" prefHeight="1133.0" prefWidth="744.0" spacing="40.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.antriannew.controller.ambilAntrianController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <Button fx:id="btnLK1" mnemonicParsing="false" onAction="#btnLK1" prefHeight="116.0" prefWidth="224.0" text="LOKET 1" />
+      <Button fx:id="btnLK2" mnemonicParsing="false" onAction="#btnLK2" prefHeight="116.0" prefWidth="224.0" text="LOKET 2" />
+      <Button fx:id="btnLK3" mnemonicParsing="false" onAction="#btnLK3" prefHeight="116.0" prefWidth="224.0" text="LOKET 3" />
+      <Button fx:id="btnLK4" mnemonicParsing="false" onAction="#btnLK4" prefHeight="116.0" prefWidth="224.0" text="LOKET 4" />
+      <Button fx:id="btnLK5" mnemonicParsing="false" onAction="#btnLK5" prefHeight="116.0" prefWidth="224.0" text="LOKET 5" />
+   </children>
+</VBox>
