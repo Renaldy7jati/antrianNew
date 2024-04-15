@@ -27,7 +27,7 @@ public class homeController extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        FXMLLoader fxmlLoader = new FXMLLoader(panggilAntrianController.class.getResource("home.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(mainApp.class.getResource("home.fxml"));
         Parent parent = fxmlLoader.load();
         Scene scene = new Scene(parent);
         stage.setScene(scene);
@@ -39,12 +39,12 @@ public class homeController extends Application {
     }
 
     public void btnSettingAntrian(ActionEvent actionEvent) throws IOException {
-        ScrollPane view = FXMLLoader.load(getClass().getResource("setting-antrian.fxml"));
+        ScrollPane view = FXMLLoader.load(mainApp.class.getResource("setting-antrian.fxml"));
         borderPane.setCenter(view);
     }
 
     public void btnSettingUser(ActionEvent actionEvent) throws IOException {
-        ScrollPane view = FXMLLoader.load(getClass().getResource("setting-user.fxml"));
+        ScrollPane view = FXMLLoader.load(mainApp.class.getResource("setting-user.fxml"));
         borderPane.setCenter(view);
     }
 }
