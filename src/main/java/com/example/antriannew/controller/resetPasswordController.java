@@ -1,6 +1,6 @@
 package com.example.antriannew.controller;
 
-import com.example.antriannew.controller.connection;
+import com.example.antriannew.models.connection;
 import com.example.antriannew.models.settingUser;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -24,7 +24,7 @@ public class resetPasswordController implements Initializable {
     Button btnReset;
     private com.example.antriannew.models.settingUser settingUser;
 
-    com.example.antriannew.controller.connection connection = new connection();
+    com.example.antriannew.models.connection connection = new connection();
 
 
 

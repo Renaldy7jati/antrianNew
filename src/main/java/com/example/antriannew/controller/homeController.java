@@ -9,6 +9,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -45,6 +46,10 @@ public class homeController extends Application {
 
     public void btnSettingUser(ActionEvent actionEvent) throws IOException {
         ScrollPane view = FXMLLoader.load(mainApp.class.getResource("setting-user.fxml"));
+        borderPane.setCenter(view);
+    }
+    public void btnSettingKoneksi(ActionEvent actionEvent) throws IOException {
+        VBox view = FXMLLoader.load(mainApp.class.getResource("setting-koneksi.fxml"));
         borderPane.setCenter(view);
     }
 }

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="317.0" prefWidth="283.0" spacing="20.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField alignment="CENTER" opacity="0.32" prefHeight="49.0" prefWidth="600.0" text="NPWP" />
+      <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="172.0" spacing="20.0">
+         <children>
+            <CheckBox mnemonicParsing="false" text="TANPA NPWP" />
+            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="142.0" text="Button" />
+         </children>
+      </VBox>
+   </children>
+</VBox>

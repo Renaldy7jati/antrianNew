@@ -1,7 +1,10 @@
 package com.example.antriannew.controller;
 
+import com.example.antriannew.models.connection;
+import javafx.event.Event;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.Node;
 import javafx.scene.control.Button;
 import javafx.scene.layout.VBox;
 
@@ -16,10 +19,11 @@ import java.util.logging.Logger;
 public class ambilAntrianController implements Initializable {
 
     Statement statement;
+    printAntrian printAntrian = new printAntrian();
 
     private static final Logger logger = Logger.getLogger(ambilAntrianController.class.getName());
 
-    com.example.antriannew.controller.connection connection = new connection();
+    com.example.antriannew.models.connection connection = new connection();
     @FXML
     Button btnLK1;
     @FXML
@@ -86,24 +90,29 @@ public class ambilAntrianController implements Initializable {
         try (PreparedStatement statement1 = connection.connection.prepareStatement(cek)) {
             statement1.setString(1, kodeAntrian);
             ResultSet resultSet = statement1.executeQuery();
-            System.out.println(statement1);
             if(resultSet.next() && resultSet.getInt("MAX_NOMOR") > 0) {
                 PreparedStatement statement = connection.connection.prepareStatement(query);
                 statement.setString(1, kodeAntrian);
                 statement.setString(2, kodeAntrian);
                 statement.execute();
-                System.out.println(statement);
             } else {
                 PreparedStatement statement = connection.connection.prepareStatement(queryPertama);
                 statement.setString(1, kodeAntrian);
                 statement.execute();
-                System.out.println(statement);
             }
+            String kode_antrian= resultSet.getString("MAX_NOMOR");
+            printWithIText.printPDFWithIText(kode_antrian);
         } catch (SQLException e) {
             throw new RuntimeException(e);
+        }catch (Exception e){
+            System.out.println(e.getMessage());
         }
     }
 
+    @FXML
+    private void ambilDataNPWP(Event event){
+
+    }
 
 
     @FXML

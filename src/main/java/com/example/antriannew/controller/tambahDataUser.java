@@ -1,5 +1,6 @@
 package com.example.antriannew.controller;
 
+import com.example.antriannew.models.connection;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -19,7 +20,7 @@ import java.util.ResourceBundle;
 public class tambahDataUser implements Initializable{
 
     Stage stage;
-    com.example.antriannew.controller.connection connection = new connection();
+    com.example.antriannew.models.connection connection = new connection();
 
     @FXML
     TextField username;

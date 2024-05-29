@@ -1,5 +1,6 @@
 package com.example.antriannew.controller;
 
+import com.example.antriannew.models.connection;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -27,7 +28,7 @@ public class panggilAntrianController implements Initializable {
     @FXML
     Button btnPanggilUlang;
 
-    com.example.antriannew.controller.connection connection = new connection();
+    com.example.antriannew.models.connection connection = new connection();
     ObservableList<String> listAntrian = FXCollections.observableArrayList();
     String ID_ANTRIAN_HARIAN;
 

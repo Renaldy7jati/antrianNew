@@ -13,6 +13,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.ButtonType;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -39,13 +40,17 @@ public class AdministratorController {
     @FXML
     public void btnSettingAntrian(ActionEvent actionEvent) throws IOException {
         ScrollPane view = FXMLLoader.load(mainApp.class.getResource("setting-antrian.fxml"));
-
         borderPane.setCenter(view);
     }
 
     @FXML
     public void btnSettingUser(ActionEvent actionEvent) throws IOException {
         ScrollPane view = FXMLLoader.load(mainApp.class.getResource("setting-user.fxml"));
+        borderPane.setCenter(view);
+    }
+    @FXML
+    public void btnSettingKoneksi(ActionEvent actionEvent) throws IOException {
+        VBox view = FXMLLoader.load(mainApp.class.getResource("setting-koneKsi.fxml"));
         borderPane.setCenter(view);
     }
 

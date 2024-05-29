@@ -1,6 +1,6 @@
 package com.example.antriannew.controller;
 
-import com.example.antriannew.controller.connection;
+import com.example.antriannew.models.connection;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
@@ -13,7 +13,7 @@ import java.sql.SQLException;
 public class tambahDataControler {
 
     Stage stage;
-    com.example.antriannew.controller.connection connection = new connection();
+    com.example.antriannew.models.connection connection = new connection();
 
     @FXML
     TextField kodeAntrian;

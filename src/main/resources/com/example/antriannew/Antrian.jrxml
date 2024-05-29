@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.21.2.final using JasperReports Library version 6.21.2-8434a0bd7c3bbc37cbf916f2968d35e4b165821a  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Antrian" pageWidth="612" pageHeight="792" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
+    <property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+    <property name="com.jaspersoft.studio.data.defaultdataadapter" value="DataAdapter.jrdax"/>
+    <parameter name="KODE_ANTRIAN" class="java.lang.String"/>
+    <queryString language="SQL">
+        <![CDATA[SELECT MAX(NOMOR_ANTRIAN) AS NOMOR_ANTRIAN , KODE_ANTRIAN, STATUS FROM td_antrian_harian WHERE DATE_FORMAT(WAKTU_AMBIL_ANTRIAN, '%Y-%m-%d') = CURRENT_DATE AND KODE_ANTRIAN = $P{KODE_ANTRIAN}   ]]>
+    </queryString>
+    <field name="KODE_ANTRIAN" class="java.lang.String">
+        <property name="com.jaspersoft.studio.field.name" value="KODE_ANTRIAN"/>
+        <property name="com.jaspersoft.studio.field.label" value="KODE_ANTRIAN"/>
+        <property name="com.jaspersoft.studio.field.tree.path" value="td_antrian_harian"/>
+    </field>
+    <field name="NOMOR_ANTRIAN" class="java.lang.Integer">
+        <property name="com.jaspersoft.studio.field.name" value="NOMOR_ANTRIAN"/>
+        <property name="com.jaspersoft.studio.field.label" value="NOMOR_ANTRIAN"/>
+        <property name="com.jaspersoft.studio.field.tree.path" value="td_antrian_harian"/>
+    </field>
+    <field name="STATUS" class="java.lang.String">
+        <property name="com.jaspersoft.studio.field.name" value="STATUS"/>
+        <property name="com.jaspersoft.studio.field.label" value="STATUS"/>
+        <property name="com.jaspersoft.studio.field.tree.path" value="td_antrian_harian"/>
+    </field>
+    <background>
+        <band splitType="Stretch"/>
+    </background>
+    <title>
+        <band height="65" splitType="Stretch">
+            <staticText>
+                <reportElement x="194" y="20" width="184" height="35" uuid="58bf640f-52e4-47de-b30b-4e9bb8a4f791"/>
+                <textElement textAlignment="Center">
+                    <font fontName="Times New Roman" size="24"/>
+                </textElement>
+                <text><![CDATA[ANTRIAN]]></text>
+            </staticText>
+        </band>
+    </title>
+    <pageHeader>
+        <band height="45" splitType="Stretch"/>
+    </pageHeader>
+    <columnHeader>
+        <band height="69" splitType="Stretch">
+            <textField>
+                <reportElement x="170" y="19" width="234" height="30" uuid="7c66289c-39a1-4dc4-b0d2-4b86efd3d39f"/>
+                <textElement textAlignment="Center">
+                    <font size="18"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$F{KODE_ANTRIAN}]]></textFieldExpression>
+            </textField>
+        </band>
+    </columnHeader>
+    <detail>
+        <band height="125" splitType="Stretch">
+            <textField>
+                <reportElement x="161" y="50" width="250" height="30" uuid="2b0afa84-dc53-40b0-88b7-e42b10ecd92e">
+                    <property name="com.jaspersoft.studio.spreadsheet.connectionID" value="c28d21d4-0006-4c25-85c0-719bd3ffb19c"/>
+                </reportElement>
+                <textElement textAlignment="Center">
+                    <font size="18"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$F{NOMOR_ANTRIAN}]]></textFieldExpression>
+            </textField>
+        </band>
+    </detail>
+    <columnFooter>
+        <band height="45" splitType="Stretch"/>
+    </columnFooter>
+    <pageFooter>
+        <band height="54" splitType="Stretch"/>
+    </pageFooter>
+    <summary>
+        <band height="42" splitType="Stretch"/>
+    </summary>
+</jasperReport>

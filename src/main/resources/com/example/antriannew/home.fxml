@@ -11,8 +11,8 @@
          <children>
             <Button fx:id="settingUser" mnemonicParsing="false" onAction="#btnSettingUser" prefHeight="25.0" prefWidth="101.0" text="SETTING USER" />
             <Button fx:id="settingAntrian" mnemonicParsing="false" onAction="#btnSettingAntrian" prefHeight="44.0" prefWidth="100.0" text="SETTING ANTRIAN" textAlignment="CENTER" wrapText="true" />
-            <Button fx:id="settingKoneksi" mnemonicParsing="false" prefHeight="44.0" prefWidth="100.0" text="SETTING KONEKSI" textAlignment="CENTER" wrapText="true" />
-            <Button fx:id="logOut" mnemonicParsing="false" prefHeight="44.0" onAction="#btnLogOut" prefWidth="100.0" text="LOG OUT" textAlignment="CENTER" wrapText="true" />
+            <Button fx:id="settingKoneksi" mnemonicParsing="false" onAction="#btnSettingKoneksi" prefHeight="44.0" prefWidth="100.0" text="SETTING KONEKSI" textAlignment="CENTER" wrapText="true" />
+            <Button fx:id="logOut" mnemonicParsing="false"  prefHeight="44.0" onAction="#btnLogOut" prefWidth="100.0" text="LOG OUT" textAlignment="CENTER" wrapText="true" />
          </children>
       </VBox>
       <BorderPane fx:id="borderPane" prefHeight="400.0" prefWidth="506.0" />

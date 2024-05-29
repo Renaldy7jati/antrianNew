@@ -1,14 +1,10 @@
 package com.example.antriannew.controller;
 
-import javafx.application.Application;
+import com.example.antriannew.models.connection;
 import javafx.application.Platform;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
 import javafx.scene.control.Label;
-import javafx.stage.Stage;
 
 import java.net.URL;
 import java.sql.PreparedStatement;
@@ -33,7 +29,7 @@ public class monitorUtamaController implements Initializable{
     public Label noAntrianLkt5;
     Timer timer = new Timer();
 
-    com.example.antriannew.controller.connection connection = new connection();
+    com.example.antriannew.models.connection connection = new connection();
 
 
     @FXML

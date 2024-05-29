@@ -1,7 +1,6 @@
 package com.example.antriannew.controller;
 
 import com.example.antriannew.mainApp;
-import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -33,6 +32,8 @@ public class loginController {
     private Stage stage;
     private Scene scene;
     private Parent parent;
+
+
 
 
     @FXML
@@ -117,4 +118,5 @@ public class loginController {
         stage.setScene(scene);
         stage.show();
     }
+
 }

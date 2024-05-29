@@ -1,8 +1,8 @@
 package com.example.antriannew.controller;
 
 import com.example.antriannew.mainApp;
+import com.example.antriannew.models.connection;
 import com.example.antriannew.models.settingAntrian;
-import javafx.application.Application;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -31,7 +31,7 @@ import java.util.ResourceBundle;
 
 public class settingAntrianController  implements Initializable {
 
-    com.example.antriannew.controller.connection connection = new connection();
+    com.example.antriannew.models.connection connection = new connection();
     String query = "SELECT * FROM tr_antrian";
 
     @FXML

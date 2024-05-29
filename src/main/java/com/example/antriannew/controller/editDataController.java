@@ -1,6 +1,6 @@
 package com.example.antriannew.controller;
 
-import com.example.antriannew.controller.connection;
+import com.example.antriannew.models.connection;
 import com.example.antriannew.models.settingAntrian;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
@@ -13,7 +13,7 @@ import java.sql.SQLException;
 
 public class editDataController {
     Stage stage;
-    com.example.antriannew.controller.connection connection = new connection();
+    com.example.antriannew.models.connection connection = new connection();
 
     private com.example.antriannew.models.settingAntrian settingAntrian;
 
