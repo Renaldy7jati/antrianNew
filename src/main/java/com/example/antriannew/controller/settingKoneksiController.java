@@ -51,7 +51,7 @@ public class settingKoneksiController implements Initializable {
 
             } else {
                 System.out.println(url);
-                FileReader fileReader = new FileReader(new File(url.toURI()));
+                FileReader fileReader = new FileReader(new File(getClass().getResource("/com/example/antriannew/settingCon.txt").toURI()));
                 BufferedReader bufferedReader = new BufferedReader(fileReader);
                 String line = "";
                 while ((line = bufferedReader.readLine()) != null) {
@@ -74,7 +74,7 @@ public class settingKoneksiController implements Initializable {
 
         URL url = mainApp.class.getResource("settingCon.txt");
         try {
-            File file = new File(url.toURI());
+            File file = new File(getClass().getResource("/com/example/antriannew/settingCon.txt").toURI());
             FileWriter fileWriter = new FileWriter(file);
             String data = host.getText().concat(";")
                     .concat(port.getText()).concat(";")

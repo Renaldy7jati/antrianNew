@@ -42,7 +42,7 @@ public class settingUserController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         tableView.setMinWidth(tableView.getMinWidth());
-        tableView.setColumnResizePolicy(TableView.CONSTRAINED_RESIZE_POLICY_ALL_COLUMNS);
+        tableView.setColumnResizePolicy(TableView.CONSTRAINED_RESIZE_POLICY);
 
         //TableColumn id_user = new TableColumn<>("ID User");
         TableColumn user_name = new TableColumn<>("Username");

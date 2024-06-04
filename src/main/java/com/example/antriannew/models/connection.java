@@ -18,8 +18,8 @@ public class connection {
     public Connection connection;
 
     private final String connectionURL = "jdbc:mysql://localhost:3306/antriannew";
-    private final String username = "user001";
-    private final String pass = "Makinbaik1!";
+    private final String username = "root";
+    private final String pass = "";
 
     private String driver = "jdbc:mysql://";
     private String host;
@@ -56,10 +56,10 @@ public class connection {
     }
 
     public connection() {
-        bacaKoneksi();
-        String koneksi = driver.concat(host).concat(":").concat(port).concat("/").concat(sid);
+//        bacaKoneksi();
+//        String koneksi = driver.concat(host).concat(":").concat(port).concat("/").concat(sid);
         try {
-            this.connection = DriverManager.getConnection(koneksi,user,password);
+            this.connection = DriverManager.getConnection(connectionURL,username,pass);
         } catch (SQLException e) {
             Alert alert = new Alert(Alert.AlertType.WARNING);
             alert.setTitle("KONEKSI GAGAL");

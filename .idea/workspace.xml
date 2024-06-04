@@ -9,44 +9,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ffe7a94-f597-4edd-8c8a-afecad2602d5" name="Changes" comment="Perbaikan atas commit terakhir">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/antrianNew_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/cobaPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/printAntrian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/printWithIText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/settingKoneksiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/antriannew/models/antrianWP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/antriannew/service/printAntrianService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/antriannew/Antrian.jasper" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/antriannew/Antrian.jrxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/antriannew/AntrianJasperNew.jrxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/antriannew/ambil-antrianAwal.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/antriannew/setting-koneksi.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/antriannew/settingCon.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_04_2024_17_36__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_04_2024_17_36__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_04_2024_17_50_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_04_2024_17_50__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_04_2024_18_17_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_04_2024_18_17__Changes_.xml" beforeDir="false" />
+    <list default="true" id="1ffe7a94-f597-4edd-8c8a-afecad2602d5" name="Changes" comment="percobaan compile">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/antrianNew_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/antrianNew_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/AdministratorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/AdministratorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/ambilAntrianController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/ambilAntrianController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/connection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/antriannew/models/connection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/editDataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/editDataController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/homeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/homeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/loginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/loginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/monitorUtamaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/monitorUtamaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/panggilAntrianController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/panggilAntrianController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/resetPasswordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/resetPasswordController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/printWithIText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/printWithIText.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/settingAntrianController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/settingAntrianController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/settingKoneksiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/settingKoneksiController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/settingUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/settingUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/tambahDataControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/tambahDataControler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/tambahDataUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/antriannew/controller/tambahDataUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/antriannew/mainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/antriannew/mainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/antriannew/models/connection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/antriannew/models/connection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/antriannew/home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/antriannew/home.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +57,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/JAVA/javafx-sdk-21.0.1/bin/vcruntime140_1.dll",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.3873563",
     "settings.editor.selected.configurable": "project.kotlinCompiler"
@@ -103,10 +76,12 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Antrian">
-    <configuration name="Antrian" type="Application" factoryName="Application">
+    <configuration name="Antrian" type="Application" factoryName="Application" singleton="false">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.example.antriannew.mainApp" />
       <module name="antrianNew" />
-      <option name="PROGRAM_PARAMETERS" value="--module-path &quot;\path\to\javafx-sdk-22\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <option name="PROGRAM_PARAMETERS" value="--module-path &quot;C:/JAVA/javafx-sdk-21.0.1/lib\javafx-sdk-22\lib&quot; --add-modules javafx.controls,javafx.fxml,java.sql" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -150,6 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Antrian" />
+      <item itemvalue="Application.cobaPrinter" />
+      <item itemvalue="Application.printAntrianService" />
+      <item itemvalue="Application.printWithIText" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.printWithIText" />
@@ -174,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713194093091</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="percobaan compile">
+      <created>1716993379890</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716993379890</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,7 +178,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Perbaikan atas commit terakhir" />
-    <option name="LAST_COMMIT_MESSAGE" value="Perbaikan atas commit terakhir" />
+    <MESSAGE value="percobaan compile" />
+    <option name="LAST_COMMIT_MESSAGE" value="percobaan compile" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

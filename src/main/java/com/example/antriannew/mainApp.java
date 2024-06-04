@@ -13,12 +13,12 @@ import java.sql.SQLException;
 public class mainApp extends Application {
     @Override
     public void start(Stage stage) throws IOException, SQLException {
-        String fxmlFile;
-        if(cekKoneksi()){
-            fxmlFile = "login.fxml";
-        }else {
-            fxmlFile = "setting-koneksi.fxml";
-        }
+        String fxmlFile = "login.fxml";
+//        if(cekKoneksi()){
+//            fxmlFile = "login.fxml";
+//        }else {
+//            fxmlFile = "setting-koneksi.fxml";
+//        }
         FXMLLoader fxmlLoader = new FXMLLoader(mainApp.class.getResource(fxmlFile));
         Scene scene = new Scene(fxmlLoader.load());
         stage.setTitle("ANTRIAN 0.0.1");

@@ -1,9 +1,5 @@
 package com.example.antriannew.controller;
 import com.example.antriannew.mainApp;
-import com.itextpdf.kernel.pdf.PdfDocument;
-import com.itextpdf.kernel.pdf.PdfWriter;
-import com.itextpdf.layout.Document;
-import com.itextpdf.layout.element.Paragraph;
 
 import javax.print.*;
 import javax.print.attribute.HashPrintRequestAttributeSet;
@@ -15,11 +11,6 @@ import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
 import java.util.stream.Collectors;
 
-import com.itextpdf.io.source.ByteArrayOutputStream;
-import com.itextpdf.kernel.pdf.PdfDocument;
-import com.itextpdf.kernel.pdf.PdfWriter;
-import com.itextpdf.layout.Document;
-import com.itextpdf.layout.element.Paragraph;
 
 import javax.print.*;
 import javax.print.attribute.HashPrintRequestAttributeSet;
@@ -36,23 +27,23 @@ public class printWithIText {
 
     public static void printPDFWithIText(String kode_antrian) {
         try {
-            // Create a PDF in memory
-            ByteArrayOutputStream baos = new ByteArrayOutputStream();
-            PdfWriter pdfWriter = new PdfWriter(baos);
-            PdfDocument pdfDocument = new PdfDocument(pdfWriter);
-            Document document = new Document(pdfDocument);
-            document.add(new Paragraph(kode_antrian));
-            document.close();
+//            // Create a PDF in memory
+//            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+//            PdfWriter pdfWriter = new PdfWriter(baos);
+//            PdfDocument pdfDocument = new PdfDocument(pdfWriter);
+//            Document document = new Document(pdfDocument);
+//            document.add(new Paragraph(kode_antrian));
+//            document.close();
 
             // Get PDF as byte array
-            byte[] pdfBytes = baos.toByteArray();
+//            byte[] pdfBytes = baos.toByteArray();
 
 //            for(byte b : pdfBytes){
 //                System.out.println(b);
 //            }
 
             // Print PDF
-            printPDF(pdfBytes);
+//            printPDF(pdfBytes);
         } catch (Exception e) {
             e.printStackTrace();
         }

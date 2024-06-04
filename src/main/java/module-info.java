@@ -2,10 +2,7 @@ module com.example.antriannew {
     requires javafx.controls;
     requires javafx.fxml;
     requires java.sql;
-    requires layout;
-    requires kernel;
     requires java.desktop;
-    requires io;
 
 
     opens com.example.antriannew to javafx.fxml;

@@ -49,7 +49,7 @@ public class settingAntrianController  implements Initializable {
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
         tableView.setMinWidth(tableView.getMinWidth());
-        tableView.setColumnResizePolicy(TableView.CONSTRAINED_RESIZE_POLICY_ALL_COLUMNS);
+        tableView.setColumnResizePolicy(TableView.CONSTRAINED_RESIZE_POLICY);
 
         TableColumn id_antrian = new TableColumn<>("ID Antrian");
         TableColumn kode_antrian = new TableColumn<>("Kode Antrian");
